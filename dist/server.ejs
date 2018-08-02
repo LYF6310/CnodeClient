@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <%- meta %>
+    <%- title %>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+    <%- link %>
+    <%- style %>
+    <style id="jss-server-side">
+      <%- materialCss %>
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <%- appString %>
+    </div>
+    <script>
+      window.__INITIAL__STATE__ = <%- initialState %>
+    </script>
+  <script type="text/javascript" src="/public/manifest.a675c981445ffa75af92.js"></script><script type="text/javascript" src="/public/vendor.79114c6452fca8003635.js"></script><script type="text/javascript" src="/public/app.1b14fa745a38d726916a.js"></script></body>
+</html>
